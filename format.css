@@ -1,0 +1,146 @@
+body
+{
+	font-family: Arial;
+	background-color:#DED9E2;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:  #C0B9DD;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.gallery{
+	width:1200px;
+	height:250px;
+	align:center;
+	background-color:#C0B9DD;
+}
+.i1{
+	text-align: justify;
+	width:200px;
+	float:left;
+	margin:10px;
+}
+.i1 img{
+	display: block;
+	margin: 0 auto;
+}
+.para{
+	float:right;
+}
+.bio{
+	background-color:#C0B9DD;
+	clear:both;
+	float:right;
+}
+.bio img{
+	clear:both;
+}
+.p1{
+	clear:both;
+	float:left;
+	margin-top:-125px;
+	margin-left: 155px;
+}
+footer{
+	background-color:white;
+	clear:both;
+	float:justify;
+	align:center;
+}
+div.credits{
+	align:center;
+}
+p.h1{
+	font-size:50px;
+}
+.info{
+	align:left;
+	font-size:15px;
+	
+}
+.item img{
+	display:block;
+	margin: 0 auto;
+}
+.item{
+	margin:5px;
+	float:left;
+}
+.button {
+  background-color: #75C9C8;
+  border: none;
+  color: white;
+  padding: 5px 11px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 2px 1px;
+  cursor: pointer;
+}
+.strip
+{
+	clear: both;
+}
+.button2
+{
+	position: relative;
+background-color: #75C9C8;
+  border: none;
+  color: white;
+  padding: 17px 29px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 60px 30px;
+  cursor: pointer;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div.form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
